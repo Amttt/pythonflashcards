@@ -133,3 +133,5 @@ irregular_verbs = {'braten':'to fry',
                    'waschen':'to wash',
                    'werden':'to become',
                    'werfen':'to throw'}
+list_of_dicts = [halloween, birthdays, studies, verbs, irregular_verbs]
+string_list_of_dictionaries = ['halloween', 'birthdays', 'studies', 'verbs', 'irregular_verbs']

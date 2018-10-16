@@ -5,16 +5,6 @@ print("Welche Kartenstapel möchtest du studieren?")
 print('Halloween\nBirthdays\nStudies\nVerbs\nIrregular Verbs')
 study_answer = input()
 
-if study_answer.lower() == 'halloween':
-    study(halloween)
-elif study_answer.lower() == 'birthdays':
-    study(birthdays)
-elif study_answer.lower() == 'studies':
-    study(studies)
-elif study_answer.lower() == 'verbs':
-    study(verbs)
-elif study_answer.lower() == 'irregular verbs':
-    study(irregular_verbs)
-
-  
-
+if study_answer in string_list_of_dictionaries:
+    index = string_list_of_dictionaries.index(study_answer)
+    study(list_of_dicts[index])
