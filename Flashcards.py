@@ -133,5 +133,31 @@ irregular_verbs = {'braten':'to fry',
                    'waschen':'to wash',
                    'werden':'to become',
                    'werfen':'to throw'}
+
+
+adjectives = {'alt':'old',
+              'blond':'blond',
+              'braunhaarig':'brown-haired',
+              'dick':'fat, thick',
+              'dunkelhaarig':'dark-haired',
+              'dünn':'thin',
+              'glatt':'straight (hair)',
+              'groß':'big, tall',
+              'großartig':'terrific',
+              'gut aussehend':'handsome',
+              'hässlich':'ugly',
+              'hübsch':'pretty',
+              'jung':'young',
+              'klein':'small, short (stature)',
+              'kurz':'short (hair)',
+              'lang':'long (hair)',
+              'lockig':'curly',
+              'rothaarig':'red-headed',
+              'schlank':'slim',
+              'schön':'pretty, beautiful',
+              'schwarzhaarig':'black-haired',
+              'sportlich':'athletic'}
+
+
 list_of_dicts = [halloween, birthdays, studies, verbs, irregular_verbs]
 string_list_of_dictionaries = ['halloween', 'birthdays', 'studies', 'verbs', 'irregular_verbs']
