@@ -159,5 +159,5 @@ adjectives = {'alt':'old',
               'sportlich':'athletic'}
 
 
-list_of_dicts = [halloween, birthdays, studies, verbs, irregular_verbs]
-string_list_of_dictionaries = ['halloween', 'birthdays', 'studies', 'verbs', 'irregular_verbs']
+list_of_dicts = [halloween, birthdays, studies, verbs, irregular_verbs, adjectives]
+string_list_of_dictionaries = ['halloween', 'birthdays', 'studies', 'verbs', 'irregular_verbs', 'adjectives']
