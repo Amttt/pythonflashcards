@@ -1,4 +1,6 @@
 import webbrowser as web
+import requests
+from urllib.request import urlopen
 from Flashcards import *
 
 # Main function for studying a dict
@@ -39,12 +41,27 @@ def printList(): # No input necessary
         print(string_list_of_dictionaries[i].title())
         i += 1
 
+def encode(word):
+    word = word.replace(' ', '%20')
+    word = word.replace('ä', '%C3%A4')
+    word = word.replace('Ä', '%C3%84')
+    word = word.replace('ë', '%C3%AB')
+    word = word.replace('Ë', '%C3%8B')
+    word = word.replace('ö', '%C3%B6')
+    word = word.replace('Ö', '%C3%96')
+    word = word.replace('ü','%C3%BC')
+    word = word.replace('Ü','%C3%9C')
+    word = word.replace('ß','%C3%9F')
+    return word
 
 # Function to open webpage to German dictionary for help
 def getHelp(word):
-    word = word.replace(' ', '%20')
+    word = encode(word)
     url = 'https://dict.leo.org/german-english/' + word ### Curent issue with ascii and utf-8
     web.open(url)
+
+
+    
 
 
 

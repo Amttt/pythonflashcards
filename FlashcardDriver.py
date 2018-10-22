@@ -1,6 +1,7 @@
 import webbrowser as web
 from Flashcards import *
 from functions import *
+from urllib.request import urlopen
 
 # Initalize index counter
 i = 0
