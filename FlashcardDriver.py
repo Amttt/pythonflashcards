@@ -21,7 +21,7 @@ if study_answer in string_list_of_dictionaries:
     index = string_list_of_dictionaries.index(study_answer)
 
 # Call the study function to begin listing dict elements
-if response == 'review' or 'Review':
+if response == 'review' or response == 'Review':
     review(list_of_dicts[index])
-else:
+elif response == 'study' or response == 'Study':
     study(list_of_dicts[index])

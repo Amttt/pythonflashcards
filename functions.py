@@ -15,7 +15,7 @@ def study(dictionary): # Takes input of a dict
                 if answer == dictionary[key]:
                     print('Korrekt!')
                     break
-                elif answer == "hilfe":
+                elif answer == "hilfe" or answer == "Hilfe":
                     getHelp(key)
                 else:
                     print('Inkorrekt!')
